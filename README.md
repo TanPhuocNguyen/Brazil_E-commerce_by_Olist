@@ -27,6 +27,15 @@ This is a wordcloud made from customer revew. Time, delivery, and arrived are cu
 * All category of goods, the delivery time is the longest of the total time and the delivery time has no corelation with category.
 # 1.2.2 Correlation coefficient matrix
 ![image](https://user-images.githubusercontent.com/122089400/228767020-f0938e76-99c1-4ac2-b372-15d31e0e77a5.png)
+* Correlation coefficient between delivery and delay is 0.57. If the delivery time is longer, the products ordered by the customer are more likely to be delayed in arrival.
+* And the factors that affect shipping costs, the correlation coefficient between weight and freight is 0.61, it means that the heavier the weight, higher the freight. The correlation coefficient between volume and freight is 0.59, so the freight will increase if the volume is large. In addition, delivery time is also sightly negatively correlated with customer ratings.
+# 1.2.3 The relationship between delivery time and customer ratings.
+![image](https://user-images.githubusercontent.com/122089400/228774217-d3e3b920-3865-4476-a7e2-5de65fcb43cc.png)
+* From the Figure over , the delivery time is negatively correclated with the rating.
+* In the box chart where customers scored one, 505% of customers received a longer delivery time, confirming that the longer the delivery time, the lower the score.
+* In addition, we also found that most the people (75%) who scored three belived that the delivery time should be within 14 days.
+* Therefore, we use 14 days as the benchmark. If over 14 delivery days, it mean that exceeding of standard.
+
 
 
 
